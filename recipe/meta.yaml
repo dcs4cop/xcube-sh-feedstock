@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/dcs4cop/xcube-sh/archive/{{ version }}.tar.gz
-  sha256: 7cef5ce7db192907ae6d41fc9b7198c359e5db4799c7b7dc22a0770befe13850
+  sha256: 071eac251523d1022366bd96c08e5521b6c91290f9653d3ae267576c58505444
 
 build:
   number: 0
