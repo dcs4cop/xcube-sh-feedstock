@@ -17,6 +17,7 @@ build:
 requirements:
   host:
     - python >=3.6
+    - pip
   run:
     - xcube >=0.6.0
     - oauthlib >=3.0
