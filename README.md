@@ -7,13 +7,13 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xcube-sh-feedstock/blob/master/LICENSE.txt)
 
-Summary: xcube plugin for the SENTINEL Hub Cloud API
+Summary: xcube plugin for the Sentinel Hub Cloud API
 
 Development: https://github.com/dcs4cop/xcube-sh
 
 Documentation: https://github.com/dcs4cop/xcube-sh/blob/master/README.md
 
-xcube-sh is An xcube plugin that allows generating data cubes from the SENTINEL Hub Cloud API.
+xcube-sh is an xcube plugin that allows generating data cubes from the Sentinel Hub Cloud API.
 
 Current build status
 ====================
@@ -120,6 +120,9 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@AliceBalfanz](https://github.com/AliceBalfanz/)
+* [@TonioF](https://github.com/TonioF/)
 * [@dzelge](https://github.com/dzelge/)
+* [@forman](https://github.com/forman/)
 * [@pont-us](https://github.com/pont-us/)
 
