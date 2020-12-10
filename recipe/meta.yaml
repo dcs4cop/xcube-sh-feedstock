@@ -14,14 +14,13 @@ build:
   number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  # See https://conda-forge.org/docs/maintainer/adding_pkgs.html#skipping-builds
-  skip: true  # [py<36]
 
 requirements:
   host:
     - python >=3.6
     - pip
   run:
+    - python >=3.6
     - xcube >=0.6
     - oauthlib >=3.0
     - requests-oauthlib >=1.3
