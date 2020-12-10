@@ -12,8 +12,10 @@ source:
 
 build:
   number: 0
-  noarch: python >=3.6
+  noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  # See https://conda-forge.org/docs/maintainer/adding_pkgs.html#skipping-builds
+  skip: true  # [py<36]
 
 requirements:
   host:
